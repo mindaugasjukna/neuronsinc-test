@@ -22,4 +22,6 @@ Thereafter, open a new terminal, write:
 
 ## Additional notes
 
-Is functional, but could use additional styling (like the checkbox).
+This project folder structure and variables are set up as if the project was bigger within it's scope, with as little repeatable code as possible.
+
+The website is fully functional, allthough it could use additional styling (like the checkbox).
