@@ -1,8 +1,6 @@
+// All base values
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
 
 * {
   font-family: "Open Sans", sans-serif;
@@ -15,6 +13,7 @@ p {
   color: $color-primary;
   text-transform: uppercase;
 } */
+
 .App {
   width: 80vw;
   margin: 0 auto;
@@ -30,26 +29,8 @@ p {
   border: none;
   cursor: pointer;
   transition: 0.2s;
-}
-.cta-button:hover {
-  background-color: #df4352;
-}
 
-#Navbar {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  height: 100px;
-  margin-bottom: 40px;
+  &:hover {
+    background-color: #df4352;
+  }
 }
-#Navbar img {
-  height: 100px;
-  margin: 0 auto;
-}
-#Navbar li {
-  margin: 0 auto;
-  line-height: 100px;
-  /* color: $color-primary; */
-  list-style-type: none;
-}
-
-/*# sourceMappingURL=App.css.map */

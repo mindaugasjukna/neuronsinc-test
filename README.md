@@ -1,4 +1,4 @@
-# Sundown Boulevard
+# Neurons inc. - Login Screen
 
 Powered by React and SCSS.
 
@@ -14,7 +14,7 @@ After cloning, open a terminal
 ### `npm run sass`
 
 Make sure to go in a random scss file and hit CTRL/CMD + S.
-It should say ### `Compiled src/style/main.scss to src/App.css` in the terminal.
+It should say `Compiled src/style/main.scss to src/App.css` in the terminal.
 
 Thereafter, open a new terminal, write:
 

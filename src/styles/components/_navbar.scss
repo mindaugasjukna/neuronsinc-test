@@ -1,0 +1,18 @@
+#Navbar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 100px;
+  margin-bottom: 40px;
+
+  img {
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  li {
+    margin: 0 auto;
+    line-height: 100px;
+    /* color: $color-primary; */
+    list-style-type: none;
+  }
+}
