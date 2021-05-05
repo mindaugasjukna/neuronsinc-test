@@ -6,31 +6,49 @@
   font-family: "Open Sans", sans-serif;
 }
 
-/* h1,
+h1,
 h2,
 h3,
-p {
-  color: $color-primary;
-  text-transform: uppercase;
-} */
+p,
+label,
+input {
+  color: $color-gray-text;
+}
 
 .App {
-  width: 80vw;
   margin: 0 auto;
+  background-color: $color-gray;
+  height: 100vh;
+
+  @media (max-width: $breakpoint-tablet) {
+    height: 100%;
+  }
+}
+
+nav {
+  width: 90vw;
+  padding: 10px 0;
+  margin: 0 auto;
+  margin-bottom: 10vh;
+}
+
+.medium-box {
+  width: 60vw;
+  height: 60vh;
+  border-top-left-radius: 25px;
 }
 
 .cta-button {
-  padding: 15px 70px;
-  border-radius: 20px;
-  text-transform: uppercase;
+  padding: 5px 70px;
+  border-radius: 10px;
   font-size: 18px;
   color: white;
-  /* background-color: $color-primary; */
+  background-color: $color-gray-button;
   border: none;
   cursor: pointer;
   transition: 0.2s;
 
   &:hover {
-    background-color: #df4352;
+    background-color: $color-gray-dark;
   }
 }
