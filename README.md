@@ -19,3 +19,7 @@ It should say `Compiled src/style/main.scss to src/App.css` in the terminal.
 Thereafter, open a new terminal, write:
 
 ### `npm start`
+
+## Additional notes
+
+Is functional, but could use additional styling (like the checkbox).
